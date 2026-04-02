@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="nfc" location="C:/Users/hp/Desktop/NFC_test/nfc_vitis3/nfc" platform="C:/Users/hp/Desktop/NFC_test/nfc_vitis3/nfc_test_wrapper/export/nfc_test_wrapper/nfc_test_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="nfc_system" sysConfig="nfc_test_wrapper" runtime="cpp" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="33170ee7fbc98a3833f0fd93900296a7">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1908971085" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1182322536" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

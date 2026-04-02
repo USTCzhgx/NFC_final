@@ -1,0 +1,31 @@
+2026-03-23T15:34:38.324139300255-15:34:38 **** Incremental Build of configuration Debug for project nfc ****
+000-make all 
+000-'Building file: ../src/app_cli.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app_cli.o" -IC:/Users/hp/Desktop/NFC_test/nfc_vitis3/nfc_test_wrapper/export/nfc_test_wrapper/sw/nfc_test_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/app_cli.d" -MT"src/app_cli.o" -o "src/app_cli.o" "../src/app_cli.c"
+000-'Finished building: ../src/app_cli.c'
+000-' '
+000-'Building file: ../src/ftl_mon.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ftl_mon.o" -IC:/Users/hp/Desktop/NFC_test/nfc_vitis3/nfc_test_wrapper/export/nfc_test_wrapper/sw/nfc_test_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/ftl_mon.d" -MT"src/ftl_mon.o" -o "src/ftl_mon.o" "../src/ftl_mon.c"
+000-'Finished building: ../src/ftl_mon.c'
+000-' '
+000-'Building file: ../src/main.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/hp/Desktop/NFC_test/nfc_vitis3/nfc_test_wrapper/export/nfc_test_wrapper/sw/nfc_test_wrapper/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: nfc.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/hp/Desktop/NFC_test/nfc_vitis3/nfc_test_wrapper/export/nfc_test_wrapper/sw/nfc_test_wrapper/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "nfc.elf"  ./src/app_cli.o ./src/ftl_core.o ./src/ftl_mon.o ./src/main.o ./src/merge_smoke_test.o ./src/nfc.o ./src/nfc_reg.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: nfc.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size nfc.elf  |tee "nfc.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  63980	   1780	  50704	 116464	  1c6f0	nfc.elf
+000-'Finished building: nfc.elf.size'
+000-' '
+00255-
+15:34:42 Build Finished (took 4s.209ms)
+
